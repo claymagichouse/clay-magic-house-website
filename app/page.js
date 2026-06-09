@@ -171,15 +171,12 @@ return (
             </a>
 
             <div>
-              <p className="text-xs uppercase tracking-[0.3em] text-[#7c4a5b]/50 mb-4">
-                About
-              </p>
-
-              <div className="space-y-3 pl-1">
-                <a href="/about/" className="block text-[#57433c] text-lg">
-                 About Us
-                </a>
-               </div>
+              <a
+                 href="/about/about-us"
+                className="block text-[#57433c] text-lg uppercase tracking-[0.18em]"
+               >
+              About
+             </a>
              </div>
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-[#7c4a5b]/50 mb-4">
