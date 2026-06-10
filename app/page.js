@@ -123,7 +123,7 @@ return (
         </div>
       {/* MOBILE MENU */}
       <div
-    className={`md:hidden fixed top-0 right-0 h-full w-full max-w-[420px] bg-[#faf6f2] z-[60] shadow-[0_20px_80px_rgba(0,0,0,0.18)] transition-all duration-500 ${
+    className={`md:hidden fixed top-0 right-0 h-full w-full max-w-[420px] bg-[#faf6f2] z-[999] shadow-[0_20px_80px_rgba(0,0,0,0.18)] transition-all duration-500 ${
     mobileMenuOpen
       ? 'translate-x-0 opacity-100'
       : 'translate-x-full opacity-0 pointer-events-none'
@@ -162,11 +162,11 @@ return (
           </button>
         </div>
 
-        <div className="overflow-y-auto h-full pb-32 px-6 pt-8">
+        <div className="overflow-y-auto h-full pb-32 px-6 pt-8 bg-[#faf6f2]">
 
           <div className="space-y-8">
-
-            <a className="block text-[#57433c] text-lg uppercase tracking-[0.18em]">
+              <a href="/"
+               className="block text-[#57433c] text-lg uppercase tracking-[0.18em]">
               Home
             </a>
 
@@ -182,9 +182,7 @@ return (
               <p className="text-xs uppercase tracking-[0.3em] text-[#7c4a5b]/50 mb-4">
                 Gallery
               </p>
-<p className="text-red-500">
-  TEST MENU 123
-</p>
+
               <div className="space-y-3 pl-1 text-[#57433c]">
                 <a href="/works/clay-gallery" className="block text-lg">Instructor Gallery</a>
                 <a href="/works/student-creations" className="block text-lg">Student Art Corner</a>
