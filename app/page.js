@@ -180,12 +180,14 @@ return (
              </div>
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-[#7c4a5b]/50 mb-4">
-                Works
+                Gallery
               </p>
-
+<p className="text-red-500">
+  TEST MENU 123
+</p>
               <div className="space-y-3 pl-1 text-[#57433c]">
-                <a href="/works/clay-gallery" className="block text-lg">Clay Gallery</a>
-                <a href="/works/student-creations" className="block text-lg">Student Creations</a>
+                <a href="/works/clay-gallery" className="block text-lg">Instructor Gallery</a>
+                <a href="/works/student-creations" className="block text-lg">Student Art Corner</a>
               </div>
             </div>
 
