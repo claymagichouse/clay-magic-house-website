@@ -200,11 +200,14 @@ return (
             </div>
 
             <a
-              href="#visit-studio"
-              className="block text-[#57433c] text-lg uppercase tracking-[0.18em]"
-            >onClick={() => setMobileMenuOpen(false)}
-              Contact
-            </a>
+  href="#"
+  onClick={() => {
+    alert('clicked')
+    setMobileMenuOpen(false)
+  }}
+>
+  Contact
+</a>
 
           </div>
         </div>
