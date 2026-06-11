@@ -166,6 +166,7 @@ return (
 
           <div className="space-y-8">
               <a href="/"
+              onClick={() => setMobileMenuOpen(false)}
                className="block text-[#57433c] text-lg uppercase tracking-[0.18em]">
               Home
             </a>
@@ -173,6 +174,7 @@ return (
             <div>
               <a
                  href="/about/about-us"
+                 onClick={() => setMobileMenuOpen(false)}
                 className="block text-[#57433c] text-lg uppercase tracking-[0.18em]"
                >
               About
@@ -184,8 +186,12 @@ return (
               </p>
 
               <div className="space-y-3 pl-1 text-[#57433c]">
-                <a href="/works/clay-gallery" className="block text-lg">Instructor Gallery</a>
-                <a href="/works/student-creations" className="block text-lg">Student Art Corner</a>
+                <a href="/works/clay-gallery" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-lg">Instructor Gallery</a>
+                <a href="/works/student-creations" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-lg">Student Art Corner</a>
               </div>
             </div>
 
@@ -195,7 +201,9 @@ return (
               </p>
 
               <div className="space-y-3 pl-1 text-[#57433c]">
-                <a href="/classes/kids-clay-classes" className="block text-lg">Kids Clay Classes</a>
+                <a href="/classes/kids-clay-classes" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-lg">Kids Clay Classes</a>
               </div>
             </div>
 
