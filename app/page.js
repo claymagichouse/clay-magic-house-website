@@ -202,7 +202,7 @@ return (
             <a
               href="#visit-studio"
               className="block text-[#57433c] text-lg uppercase tracking-[0.18em]"
-            >
+            >onClick={() => setMobileMenuOpen(false)}
               Contact
             </a>
 
