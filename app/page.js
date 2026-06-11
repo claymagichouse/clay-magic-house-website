@@ -200,14 +200,21 @@ return (
             </div>
 
             <a
-  href="#"
-  onClick={() => {
-    alert('clicked')
-    setMobileMenuOpen(false)
-  }}
+           href="#"
+             className="block text-[#57433c] text-lg uppercase tracking-[0.18em]"
+               onClick={(e) => {
+              e.preventDefault()
+              setMobileMenuOpen(false)
+
+              setTimeout(() => {
+               document
+        .getElementById('visit-studio')
+        ?.scrollIntoView({ behavior: 'smooth' })
+              }, 150)
+              }}
 >
-  Contact
-</a>
+               Contact
+            </a>
 
           </div>
         </div>
